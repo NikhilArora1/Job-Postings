@@ -1,4 +1,4 @@
-<img class="svg header margin-b-4x" src="../assets/images/bg-header-desktop.svg" />
+<img class="svg header margin-b-4x" src="assets/images/bg-header-desktop.svg" />
 
 <mat-card *ngIf="chips.length" class="filter">
   <mat-chip-list>
@@ -13,7 +13,7 @@
 <mat-card class="job-container margin-2x" [ngClass]="{'mat-elevation-z6 featured-job': item.featured}"
   *ngFor="let item of filteredData">
   <div class="job-info">
-    <img src="../assets/images/{{item.logo}}" />
+    <img src="assets/images/{{item.logo}}" />
     <div class="job-primary-info">
       <div class="job-company-info">
         <span class="company">{{item.company}}</span>
