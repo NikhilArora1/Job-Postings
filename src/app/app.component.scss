@@ -1,0 +1,111 @@
+.svg {
+    width: 100%;
+    height: auto;
+}
+
+.header {
+    background: #009688;
+}
+
+.margin-b-4x {
+    margin-bottom: 24px;
+}
+
+.margin-2x {
+    margin: 16px auto;
+}
+
+.job {
+    &-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 80%;
+    }
+
+    &-info {
+        display: flex;
+    }
+
+    &-primary-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-left: 8px;
+    }
+
+    &-secondary-info {
+        display: flex;
+        gap: 16px;
+        font-size: 12px;
+        color: #9E9E9E;
+    }
+
+    &-company-info {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    &-requirements {
+        display: flex;
+        gap: 8px;
+    }
+}
+
+.company {
+    margin-right: 8px;
+    color: #009688;
+    font-weight: bold;
+}
+
+.new {
+    color: #fff;
+    background: #009688;
+}
+
+.featured {
+    color: #fff;
+    background: black;
+}
+
+.mat-standard-chip {
+    height: 24px;
+    min-height: auto;
+}
+
+.box {
+    background: #E0F2F1;
+    color: #009688;
+    font-weight: bold;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.separator-icon {
+    font-size: 8px;
+    position: relative;
+    top: 6px;
+    left: 6px;
+}
+
+.featured-job {
+    border-left: 4px solid #009688;
+}
+
+.position {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.filter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.clear {
+    color: #009688;
+    text-decoration: underline;
+    cursor: pointer;
+}
