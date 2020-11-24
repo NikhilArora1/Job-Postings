@@ -46,8 +46,8 @@ export class AppComponent implements OnInit {
       delete this.filterCondition.role;
     } else if (this.filterCondition.languages.includes(chip)) {
       const i = this.filterCondition.languages.indexOf(chip);
-      if (index >= 0) {
-        this.filterCondition.languages.splice(index, 1);
+      if (i >= 0) {
+        this.filterCondition.languages.splice(i, 1);
       }
     } else if (this.filterCondition.tools.includes(chip)) {
       const i = this.filterCondition.tools.indexOf(chip);
