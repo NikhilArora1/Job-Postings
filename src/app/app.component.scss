@@ -102,6 +102,10 @@
 .filter {
     display: flex;
     justify-content: space-between;
+    max-width: 80%;
+    margin: auto;
+    bottom: 56px;
+    margin-bottom: -54px;
 }
 
 .clear {
